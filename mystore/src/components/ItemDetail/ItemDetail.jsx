@@ -4,9 +4,7 @@ import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = (item) => {
     const { id, title, description, price, category, image } = item;
-    console.log(price)
-    console.log(image)
-    console.log(description)
+
     return (
         <Card style={{ width: "18rem", cursor: "pointer" }}>
             <Card.Img variant="top" src={image} />
