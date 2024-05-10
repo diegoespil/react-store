@@ -3,15 +3,15 @@ import { Button } from "react-bootstrap"
 import Container from 'react-bootstrap/Container';
 
 const ItemCount = () => {
-    const [count, setCount] = useState(0);
+    const [cantItems, setCount] = useState(0);
 
     const handleAdd = () => {
-        setCount(count + 1)
+        setCount(cantItems + 1)
     }
 
     const handleSubs = () => {
-        if (count > 0) {
-            setCount(count - 1)
+        if (cantItems > 0) {
+            setCount(cantItems - 1)
         }
 
     }
@@ -21,7 +21,7 @@ const ItemCount = () => {
                 Item count
             </Container>
             <Button onClick={handleAdd}>+</Button>
-            <span> {count} </span>
+            <span> {cantItems} </span>
             <Button onClick={handleSubs}>-</Button>
 
         </>

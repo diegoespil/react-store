@@ -1,23 +1,25 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import ItemCount from '../ItemCount/ItemCount';
+import { Link, NavLink } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
+import { useNavigate } from 'react-router-dom';
 
-const Item = ({ id, name, description, marca, talles, price, image }) => {
 
+const Item = ({ id, title, description, price, image }) => {
+    const navigate = useNavigate();
+    console.log(image)
+    const handleOnClick = () => {
+        navigate(`/products/${id}`)
+    };
 
     return (
 
         <>
-            <Card style={{ width: '18rem' }}>
+            <Card className="mt-5" style={{ width: '15rem', cursor: "pointer" }} onClick={handleOnClick}>
                 <Card.Img variant="top" src={image} />
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
-                        {description}
-                    </Card.Text>
-                    <Card.Text>
-                        {price}
-                    </Card.Text>
-                    <Button variant="primary">Agregar</Button>
+                <Card.Body >
+                    <Card.Title>{title}</Card.Title>
                 </Card.Body>
             </Card>
         </>
