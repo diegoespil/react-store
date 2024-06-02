@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Item = ({ id, title, description, price, image }) => {
     const navigate = useNavigate();
-    console.log(image)
+
     const handleOnClick = () => {
         navigate(`/products/${id}`)
     };

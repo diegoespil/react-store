@@ -1,8 +1,29 @@
-# React + Vite
+# Proyecto coderhouse - Tienda de ECommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Imagen de caratula](src/assets/clothes-store.jpg)
 
-Currently, two official plugins are available:
+## Introduccion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este sitio fue desarrollado en el curso de Coderhouse, donde el proyecto final era crear un sitio ecommerce.
+
+## Tecnologias/lenguajes que se usaron
+
+### Frontend
+* Javascript
+* Npm
+* Vite
+* React
+
+### Backend
+* Firestore
+
+
+
+
+## Como Instalar el proyecto
+
+1 - Clonar repositorio de github [Aqui](https://wwww.google.com)
+2 - Hacer `npm install`
+3 - Hacer **npm install**
+
+Proyecto coderhouse - Tienda de ECommerce

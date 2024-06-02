@@ -22,13 +22,13 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="d-flex gap-4">
-                        <Nav.Link href="/" >Home</Nav.Link>
-                        <Nav.Link href="/products">Productos</Nav.Link>
-                        <Nav.Link href="/category/pantalones">Pantalones</Nav.Link>
-                        <Nav.Link href="/category/remeras">Remeras</Nav.Link>
-                        <Nav.Link href="/category/buzos">Buzos</Nav.Link>
-                        <Nav.Link href="/category/camperas">Camperas</Nav.Link>
-
+                        <Link to="/" >Home</Link>
+                        <Link to="/products">Productos</Link>
+                        <Link to="/category/pantalones">Pantalones</Link>
+                        <Link to="/category/remeras">Remeras</Link>
+                        <Link to="/category/buzos">Buzos</Link>
+                        <Link to="/category/camperas">Camperas</Link>
+                        <Link to="/cart">Cart</Link>
                     </Nav>
 
 
