@@ -22,8 +22,8 @@ Este sitio fue desarrollado en el curso de Coderhouse, donde el proyecto final e
 
 ## Como Instalar el proyecto
 
-1 - Clonar repositorio de github [Aqui](https://wwww.google.com)
-2 - Hacer `npm install`
-3 - Hacer **npm install**
+1 - `git clone https://github.com/diegoespil/react-store/tree/main`
+2 - `npm install`
+3 - `npm run dev`
 
 Proyecto coderhouse - Tienda de ECommerce
